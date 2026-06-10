@@ -41,7 +41,6 @@ body{
     inset:0;
     background-image:url("resources/Background_decor@2x.png");
     background-repeat:no-repeat;
-    
 }
 
 .intro > *{
@@ -169,7 +168,7 @@ body{
 @media (max-width:1024px){
 
     .team-container{
-        grid-template-columns:repeat(2,1fr);
+        grid-template-columns:repeat(3,1fr);
         grid-template-rows:auto repeat(3,320px);
     }
 
