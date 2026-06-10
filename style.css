@@ -6,15 +6,15 @@
 
 body{
     min-height:100vh;
-    font-family:Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    padding:40px 24px 60px;
+    font-family: 'Outfit', sans-serif;
+    /* padding:40px 64px 60px;   */
+    padding-top:120px;
+    padding-bottom:100px;
 }
 
 .team-container{
-    /* max-width:1200px; */
     width:70%;
-    margin: auto;
-    /* place-self:center; */
+    place-self:center;
     display:grid;
     grid-template-columns:repeat(4,1fr);
     grid-template-rows:repeat(2,320px);
@@ -27,11 +27,9 @@ body{
 .intro{
     grid-column:1/3;
     grid-row:1/3;
-
     position:relative;
     background:#eceef4;
     padding:48px;
-
     display:flex;
     flex-direction:column;
     overflow:hidden;
@@ -43,9 +41,7 @@ body{
     inset:0;
     background-image:url("resources/Background_decor@2x.png");
     background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    opacity:.15;
+    
 }
 
 .intro > *{
@@ -170,7 +166,7 @@ body{
 
 /* TABLET */
 
-@media (max-width:992px){
+@media (max-width:1024px){
 
     .team-container{
         grid-template-columns:repeat(2,1fr);
@@ -210,7 +206,7 @@ body{
 
 /* MOBILE */
 
-@media (max-width:600px){
+@media (max-width:412px){
 
     body{
         padding:20px;
